@@ -28,13 +28,6 @@ cacheSolve <- function(x, ...) {
   inv_mat<-x$getmatrix()
   if(!is.null(inv_mat)){
     message("getting cached data")
-    ##print(m)
-    ##te<-solve(m)
-    ##message("Inv matrix below")
-    ##print(te)
-    ##message("Orig %*% Inv matrix below")
-    ##print(m %*% te)
-    ##message("Orig matrix below")
     inv_mat
   }
   
